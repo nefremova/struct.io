@@ -15,6 +15,7 @@ If that returns with a `Command 'nvm' not found` then you know you don't have it
 You can always just go to the `nvm` repo and follow their guide: https://github.com/nvm-sh/nvm
 
 To keep it simple though, just run this command:
+**!!THIS MAKES CHANGES TO YOUR MACHINE!!**
 ``` bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
@@ -22,10 +23,11 @@ Afterwards, open and close your terminal so you can start using `nvm`.
 
 You can double check if `nvm` installed correctly by running `nvm --version` again and it should return with a version number.
 
-## Step 2: Install NodeJS 12.4.0
-Currently, we're using NodeJS version `12.4.0`. If we update the version, you'll be alerted.
+## Step 2: Install NodeJS v12.4.0
+Currently, we're using NodeJS version `v12.4.0`. If we update the version, you'll be alerted.
 
 Anyways, run this command in the terminal:
+**!!THIS MAKES CHANGES TO YOUR MACHINE!!**
 ``` bash
 nvm install 12.4.0
 ```
@@ -71,5 +73,3 @@ If you have `npm` installed, then you'll see something like this:
 $ which npm
 $ nvm/versions/node/v12.4.0/bin/npm
 ```
-
-## Step 4: Get ReactJS
